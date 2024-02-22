@@ -32,10 +32,25 @@
   }
 
 
-  .bg-client {
+  .ava-client {
     width: 100px;
     height: 100px;
     background-size: cover; 
     background-position: center; 
     /* background-attachment: fixed; */
+  }
+
+  .bg-team {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7)),url('/bgteam.jpg');
+    background-size: cover; 
+    background-position: center; 
+  }
+
+  .ava-team {
+    width: 150px;
+    height: 150px;
+    background-size: cover; 
+    background-position: center; 
   }

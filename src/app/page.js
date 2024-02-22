@@ -4,6 +4,7 @@ import HeroSec from "./page/Hero";
 import InfoSec from "./page/Info";
 import ServicesSec from "./page/Services";
 import ClientSec from "./page/Client";
+import TeamSec from "./page/Team";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <InfoSec />
         <ServicesSec />
         <ClientSec />
+        <TeamSec />
         
       </div>
     </main>
