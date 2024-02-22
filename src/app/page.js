@@ -5,6 +5,7 @@ import InfoSec from "./page/Info";
 import ServicesSec from "./page/Services";
 import ClientSec from "./page/Client";
 import TeamSec from "./page/Team";
+import ContactSec from "./page/Contact";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <ServicesSec />
         <ClientSec />
         <TeamSec />
+        <ContactSec />
         
       </div>
     </main>
