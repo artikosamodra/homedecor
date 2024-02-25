@@ -2,55 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 /* BG HERO */
 .bg-hero {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/herobg.jpg');
-    background-size: cover; 
-    background-position: center; 
-    /* background-attachment: fixed; */
-  }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/herobg.jpg");
+}
 
-  .bg-services {
-    width: 300px;
-    height: 300px;
-    background-size: cover; 
-    background-position: center; 
-    /* background-attachment: fixed; */
-  }
+.bg-services {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
 
-  .bg-name1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/services1.jpg');
-  }
-  .bg-name2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/services2.jpg');
-  }
-  .bg-name3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/services3.jpg');
-  }
+.bg-name1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/services1.jpg");
+}
+.bg-name2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/services2.jpg");
+}
+.bg-name3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/services3.jpg");
+}
 
+.ava-client {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
 
-  .ava-client {
-    width: 100px;
-    height: 100px;
-    background-size: cover; 
-    background-position: center; 
-    /* background-attachment: fixed; */
-  }
+.bg-team {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(30, 30, 30, 0.7),
+      rgba(30, 30, 30, 0.7)
+    ),
+    url("/bgteam.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
-  .bg-team {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(30, 30, 30, 0.7), rgba(30, 30, 30, 0.7)),url('/bgteam.jpg');
-    background-size: cover; 
-    background-position: center; 
-  }
-
-  .ava-team {
-    width: 150px;
-    height: 150px;
-    background-size: cover; 
-    background-position: center; 
-  }
+.ava-team {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}

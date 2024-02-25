@@ -10,14 +10,13 @@ import ContactSec from "./page/Contact";
 export default function Home() {
   return (
     <main>
-      <div className="">
+      <div className="flex flex-col">
         <HeroSec />
         <InfoSec />
         <ServicesSec />
         <ClientSec />
         <TeamSec />
         <ContactSec />
-        
       </div>
     </main>
   );
