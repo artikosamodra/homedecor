@@ -4,9 +4,9 @@ const ContactSec = () => {
       <div className="lg:p-20 p-10">
         <h1 className="text-4xl text-red-700 pb-10 font-bold">Contact Us</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
-          cupiditate maiores possimus dolorem ab deleniti sit, tempore
-          perspiciatis ex quae.
+          If you any of our services, feel free to contact us. Out customer care
+          helpdesk is always avaible to receive all your request and get them
+          address.
         </p>
         <form className="grid grid-cols-2 gap-4 bg-gray-300 py-10 px-5 rounded-md mt-10">
           <input
