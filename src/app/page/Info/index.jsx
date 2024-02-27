@@ -13,7 +13,7 @@ const InfoSec = () => {
             className="md:block hidden"
           />
         </div>
-        <div className="md:col-span-5 col-span-8">
+        <div className="md:col-span-6 col-span-8">
           <h1 className="text-4xl font-bold text-red-600 pb-8">Who We Are</h1>
           <h2 className="lg:text-2xl text-xl font-bold pb-4">
             We are HOMEDECOR SOLUTION
