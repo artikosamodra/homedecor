@@ -14,7 +14,6 @@ const ClientSec = () => {
           <AvaIcon ImgName="/services3.jpg" />
           <AvaIcon ImgName="/infoimg.jpg" />
           <AvaIcon ImgName="/services1.jpg" />
-          <AvaIcon ImgName="/services2.jpg" />
         </div>
       </div>
     </section>
