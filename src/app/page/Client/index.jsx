@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const ClientSec = () => {
   return (
-    <section id="client" className="pt-20">
+    <section id="client" className="lg:pt-10 pt-20">
       <div className="lg:p-20 p-10">
         <h1 className="text-4xl text-red-700 pb-10 font-bold">Our Client</h1>
         <p>

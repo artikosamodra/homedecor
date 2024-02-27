@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const InfoSec = () => {
   return (
-    <section id="info" className="pt-10">
-      <div className="grid grid-cols-4 gap-10 md:p-20 p-10">
-        <div className="md:col-span-1 col-span-4">
+    <section id="info" className="lg:pt-10 pt-20">
+      <div className="grid grid-cols-8 gap-10 lg:p-20 p-10">
+        <div className="md:col-span-2 col-span-8">
           <Image
             src="/infoimg.jpg"
             alt="Image Info"
@@ -13,16 +13,22 @@ const InfoSec = () => {
             className="md:block hidden"
           />
         </div>
-        <div className="md:col-span-3 col-span-4">
+        <div className="md:col-span-5 col-span-8">
           <h1 className="text-4xl font-bold text-red-600 pb-8">Who We Are</h1>
-          <h2 className="text-2xl font-bold  pb-4">Sub Who We Are</h2>
+          <h2 className="lg:text-2xl text-xl font-bold pb-4">
+            We are HOMEDECOR SOLUTION
+          </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            qui ducimus repudiandae veniam expedita vitae possimus, quam
-            necessitatibus saepe suscipit.
+            Offering an exceptional experience for both property owners and
+            tenants is our priority. We believe in creating value for everyone
+            we serve, including tenants, property owners, investors, and
+            partners. At every step, we are driven by the values of integrity,
+            openness, and excellence in everything we do. Our business is rooted
+            in our ability to provide superior maintenance operational
+            management in the industry.
           </p>
         </div>
-        <div className="md:col-span-1 col-span-4">
+        <div className="md:col-span-1 col-span-6">
           <Image
             src="/infoimg.jpg"
             alt="Image Info"

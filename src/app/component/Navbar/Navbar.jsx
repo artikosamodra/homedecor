@@ -14,8 +14,6 @@ const Navbar = () => {
       navList.classList.add("hidden");
     }
   };
-  // iconNav = document.querySelector('#iconNav');
-  // menuBar = document.querySelector("#navbar");
 
   return (
     <section className="lg:px-20 px-5 py-5 bg-rose-100 fixed top-0 w-full z-10">
