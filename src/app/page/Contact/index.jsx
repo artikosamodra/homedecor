@@ -1,6 +1,6 @@
 const ContactSec = () => {
   return (
-    <section>
+    <section id="contact" className="pt-20">
       <div className="lg:p-20 p-10">
         <h1 className="text-4xl text-red-700 pb-10 font-bold">Contact Us</h1>
         <p>

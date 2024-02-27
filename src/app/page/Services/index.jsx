@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ServicesSec = () => {
   return (
-    <section className="bg-neutral-400">
+    <section className="bg-neutral-400 pt-10" id="services">
       <div className="md:px-20 px-8 py-20 text-white font-bold">
         <h1 className="pb-10 text-4xl text-red-700">What We Offer</h1>
         <div className="flex md:flex-row flex-col justify-between items-center gap-5 mt-10">

@@ -2,7 +2,7 @@ import Avatar from "@/app/component/Utilities/Avatar";
 
 const TeamSec = () => {
   return (
-    <section>
+    <section id="team" className="pt-10">
       <div className="bg-team relative w-full h-full bg-cover bg-center flex flex-col items-center justify-center text-center gap-10 text-zinc-200 md:px-20 px-8 py-20">
         <h1 className="text-4xl font-bold">OUR TEAM</h1>
         <p className="text-center font-bold px-20">

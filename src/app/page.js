@@ -10,7 +10,7 @@ import ContactSec from "./page/Contact";
 export default function Home() {
   return (
     <main>
-      <div className="flex flex-col">
+      <div className="">
         <HeroSec />
         <InfoSec />
         <ServicesSec />

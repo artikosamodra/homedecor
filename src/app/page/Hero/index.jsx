@@ -1,6 +1,6 @@
 const HeroSec = () => {
   return (
-    <section>
+    <section id="home">
       <div className="bg-hero relative w-full h-screen bg-cover bg-center flex flex-col items-center justify-center text-center gap-10 text-zinc-200 md:px-20 px-10">
         <h1 className="text-6xl font-bold">TITLE HERO</h1>
         <p className="text-center font-bold">
