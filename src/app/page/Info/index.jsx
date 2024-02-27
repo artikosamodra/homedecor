@@ -3,7 +3,7 @@ import Image from "next/image";
 const InfoSec = () => {
   return (
     <section>
-      <div className="grid grid-cols-4 gap-10 md:p-20 p-8">
+      <div className="grid grid-cols-4 gap-10 md:p-20 p-10">
         <div className="md:col-span-1 col-span-4">
           <Image
             src="/infoimg.jpg"

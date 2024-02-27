@@ -36,14 +36,6 @@
     url("/services3.jpg");
 }
 
-.ava-client {
-  width: 100px;
-  height: 100px;
-  background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
-}
-
 .bg-team {
   background-image: linear-gradient(
       rgba(30, 30, 30, 0.7),
